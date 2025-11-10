@@ -8,7 +8,7 @@ It is based on the work in [`zyongye/vllm`](https://github.com/zyongye/vllm/tree
 
 This fork has been successfully tested running the **20-billion parameter GPT-OSS model** on an **AMD Instinct MI100** GPU.
 
-It is expected that the **120-billion parameter model** may also work, depending on available VRAM. The fix should also enable support for other GPUs from the same generation, such as the **MI60** and **MI210**, though these have not been tested.
+It is expected that the **120-billion parameter model** may also work, depending on available VRAM. The fix should also enable support for other legacy GPUs, such as the **MI60** and **MI210**, though these have not been tested.
 
 ## Installation
 
